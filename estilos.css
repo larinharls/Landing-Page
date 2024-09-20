@@ -1,38 +1,42 @@
-* {
-    margin: 0;
+body{
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.logo {
-    margin-top: -80px;
+.topoHeader{
+    display: flex;
+    justify-content: space-between;
 }
-
-
-
-header {
-    background-image: url(fotofundo.jpg);
+header{
+    background-image: url("fotofundo.jpg");
     background-size: cover;
-    padding: 100px;
-    color: white;
-    text-align: center;
-    
+    padding: 20px;
 }
-
-h1 {
+header h1{
     text-align: center;
     color: white;
-    font-family: roboto;
-    font-size: 30px;
-    margin-bottom: 15px;
-    padding: 50px;
-    padding-bottom: 0;
 }
-input {
-    border-radius: 10px;
+.endereco{
+    text-align: center;
 }
-a {
-    color: white;
-    font-family:sans-serif;
-    font-size: 10px;
+.linkEndereco{
+    text-align: center;
+}
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.paragrafoCard {
+    width: 200px;
+}
+.imagensCard {
+    width: 150px;
+}
+.itens2 {
+    display: flex;
+    justify-content: center;
+}
+.paragrafoCard2 {
+    width: 300px;
 }
